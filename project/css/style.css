@@ -1,0 +1,261 @@
+@font-face
+{
+    font-family: Montserrat;
+    src: url("montserrat.ttf");
+}
+
+@font-face
+{
+    font-family: KaushanScript;
+    src: url("kaushanscript.ttf");
+}
+
+@font-face
+{
+    font-family: Roboto;
+    src: url("roboto-regular.ttf");
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.center_block
+{	
+	margin: auto;
+	padding: 0;
+	width: 1000px;
+}
+
+.left_block
+{
+    float: left;
+    width: 595px;
+}
+
+.right_block
+{
+    float: right;
+    width: 362px;
+}
+
+.right_block_2
+{
+    float: right;
+    width: 362px;
+	display: none;
+}
+
+
+.clear
+{
+    clear: both;
+}
+
+.card_container
+{
+    background: url("../img/pinkflo99.jpg") no-repeat;
+	box-shadow: -18px 0 20px -20px #333, 
+                 18px 0 20px -20px #333;
+	border-radius: 5px;
+	width: 471px;
+    height: 720px;
+	padding-left: 62px;
+    padding-right: 61px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.an_image_container
+{
+    height: 532px;
+    width: 471px;
+    position: relative;
+	border-radius: 5px;
+	border: 2px dashed rgba(181, 16, 172, 0.4);
+}
+
+#canvas
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	background: url("../img/canvas_1.jpg") 100% 100% no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+#canvas_2
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.container_decor_selection
+{
+    background-color: #faebd7;
+    border-radius: 5px;
+    width: 362px;
+    height: 730px;
+    padding-top: 40px;
+	outline: 2px dashed rgba(181,16,172,0.4);
+	outline-offset: -10px;
+	box-shadow: -18px 0 20px -20px #333, 
+                 18px 0 20px -20px #333;
+	text-align: center;
+}
+
+.background_cards
+{
+	width: 128px;
+	height: 140px;
+    overflow: hidden;
+	margin: 0 auto;
+	border-radius: 5px;
+    box-shadow: -18px 0 20px -20px #333, 
+                 18px 0 20px -20px #333;
+}
+
+.pink_background
+{ 
+	background: linear-gradient(#f5f69c, #f0a460, #f8819e, #e869cd);;	
+}
+
+.choose_background_cards
+{
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    width: 140px;
+	height: 140px;
+}
+
+.selecting_unit
+{
+    padding-bottom: 25px;
+}
+
+li
+{
+    float: left;
+    list-style: none;
+    width: 140px;
+}
+
+h3
+{
+    font-family: KaushanScript;
+    font-size: 20px;
+    color: #dd3692;
+	margin: 0;
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+.lastH
+{
+    padding-bottom: 45px;
+}
+
+img
+{
+    width: 128px;
+    height: 140px;
+	float: left;
+}
+
+.go_to_message, .go_to_choose
+{
+    text-decoration: none;
+	color: rgba(181,16,172,0.4);
+	font-family: KaushanScript;
+    font-size: 22px;
+	width: 210px;
+}
+
+
+.go_to_message:hover, .go_to_choose:hover
+{
+   color: #dd3692;
+}
+
+.go_to_message:hover .smile, .go_to_choose:hover .smile
+{
+    height: 63px;
+    width: 60px;
+	margin: 0 auto;
+	background: url("../img/smile_2.png") 100% 100% no-repeat;
+}
+
+.smile
+{
+    height: 63px;
+    width: 60px;
+	margin: 0 auto;
+	background: url("../img/smile_1.png") 100% 100% no-repeat;
+}
+
+label
+{
+    font-family: KaushanScript;
+    font-size: 20px;
+    color: #dd3692;
+}
+
+.cards_input_box 
+{
+    width: 210px;
+    border: 1px groove rgba(181,16,172,0.4);
+	text-align: center;
+}
+
+#sender_data
+{ 
+    padding-bottom: 35px; 
+}
+
+textarea
+{
+    height: 100px;
+}
+
+.cards_button
+{
+    margin-top: 10px;
+    cursor: pointer;
+	width: 150px;
+    border: 1px groove rgba(181,16,172,0.4);
+	background: #fff; 
+    color: #dd3692;
+	font-family: KaushanScript;
+    font-size: 15px;
+	margin-bottom: 48px; 
+}
+
+.text_box
+{
+    font-family: KaushanScript;
+    resize: none;
+    border: none;
+    text-align: center;
+	font-style: oblique;
+    font-size: 25px;
+    width: 470px;
+    height: 100px;
+    top: 600px;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+	color: rgb(103, 26, 107);
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.44);
+}
+
+
