@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>День матери</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="center_block">
+	
+      <div class="left_block">
+        <div class="card_container">
+          <div class="an_image_container">
+            <canvas width="471" height="532" id='canvas'></canvas>
+            <textarea rows="2" cols="10" name="card_message" maxlength="100" type="text_box"  class="text_box" placeholder="Введите ваше сообщение" onfocus="placeholder=''" onblur="placeholder='Введите ваше сообщение'"></textarea>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="right_block" id="right_block">
+        <div class="container_decor_selection">
+          <div class="selecting_unit">
+            <h3>❀Пожалуйста, выберите фон❀</h3>
+            <button class="arrow_next">⇧</button>
+            <div class="background_cards">
+              <ul class="choose_background_cards">
+                <li class="background"><img src="img/background_1.jpg" alt="фон" /></li>
+                <li class="background"><img src="img/background_2.jpg" alt="фон" /></li>
+                <li class="background"><img src="img/background_3.jpg" alt="фон" /></li>
+                <li class="background"><img src="img/background_4.jpg" alt="фон" /></li>
+                <li class="background"><img src="img/background_5.jpg" alt="фон" /></li>
+                <li class="background"><img src="img/background_6.jpg" alt="фон" /></li>
+              </ul>
+            </div>
+            <button class="arrow_prev">⇩</button>
+          </div>
+          <div class="selecting_unit">
+            <h3>❀Теперь выберите детали❀</h3>
+            <button class="arrow_next">⇧</button>
+            <div class="background_cards pink_background">
+              <ul class="choose_background_cards">
+                <li class="detail"><img src="img/1.png" alt="фон" /></li>
+                <li class="detail"><img src="img/2.png" alt="фон" /></li>
+                <li class="detail"><img src="img/3.png" alt="фон" /></li>
+                <li class="detail"><img src="img/4.png" alt="фон" /></li>
+                <li class="detail"><img src="img/5.png" alt="фон" /></li>
+                <li class="detail"><img src="img/6.png" alt="фон" /></li>
+              </ul>
+            </div>
+            <button class="arrow_prev">⇩</button>
+          </div>
+          <div class="selecting_unit">
+            <h3 class="lastH">❀Ваша мама будет довольна❀</h3>
+            <button class="go_to_message">Отправить открытку<div class="smile"></div></button>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="right_block right_block_2" id="right_block_2">
+        <div class="container_decor_selection">
+          <form method="post" action="http://test1.ru//project/index.php">
+            <div class="sender_data">
+              <div><label for="cards_form_name_from">Ваше имя</label></div>
+              <input name="cards_form_name_from" type="text" class="cards_input_box "></input>
+            </div>
+            <div class="sender_data">
+              <div><label for="cards_form_email_from">Ваш e-mail адрес</label></div>
+              <input name="cards_form_email_from" type="text" class="cards_input_box "></input>
+            </div>
+            <div class="sender_data">
+              <div><label for="cards_form_message_from">Сообщение</label></div>
+              <textarea name="cards_form_message_from" type="text" class="cards_input_box "></textarea>
+            </div>
+            <div class="sender_data">
+              <div><label for="cards_form_name_to">Имя получателя</label></div>
+              <input name="cards_form_name_to" type="text" class="cards_input_box "></input>
+            </div>
+            <div class="sender_data">
+              <div><label for="cards_form_email_to">E-mail адрес получателя</label></div>
+              <input name="cards_form_email_to" type="text" class="cards_input_box "></input>
+            </div>
+            <input type="submit" name="submit" id="cards_button" value="Отправить" class="cards_button">
+          </form>
+          <button class="go_to_choose">↶Назад<div class="smile"></div></button>
+        </div>
+      </div>
+	  
+      <div class="clear"></div>
+	  
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/index_1.js"></script>
+  </body>  
+</html>
