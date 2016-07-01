@@ -1,6 +1,6 @@
 $.ajax(
 {
-    url: "adding_to_the_database.php"+location.search, 
+    url: "taken_from_the_database.php"+location.search, 
     dataType: 'json',
     success: function (data)
     {

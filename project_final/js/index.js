@@ -34,7 +34,7 @@ function background_change(background)
 $('.cards_button').on('click', function() {
     g_cardMessage = $(".text_box").val();
     $.ajax({
-        url: "taken_from_the_database.php?background="+g_cardBackground[15]+"&image="+g_cardImage[4]+"&message="+g_cardMessage,
+        url: "adding_to_the_database.php?background="+g_cardBackground[15]+"&image="+g_cardImage[4]+"&message="+g_cardMessage,
         success: function (){}
     });
 });
